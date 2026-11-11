@@ -1,0 +1,22 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_idea_eaw_dwa_rowdy_chieftains
+        texturefile = "gfx/interface/ideas/eaw_dwa/eaw_dwa_rowdy_chieftains.dds"
+    }
+    spriteType = {
+        name = GFX_idea_eaw_dwa_learning_to_read
+        texturefile = "gfx/interface/ideas/eaw_dwa/eaw_dwa_learning_to_read.dds"
+    }
+    spriteType = {
+        name = GFX_idea_eaw_dwa_contacting_tribes
+        texturefile = "gfx/interface/ideas/eaw_dwa/eaw_dwa_contacting_tribes.dds"
+    }
+    spriteType = {
+        name = GFX_report_event_eaw_dwa_midnightarrives_1
+        texturefile = "gfx/event_pictures/eaw_dwa/eaw_dwa_midnightarrives_1.dds"
+    }
+    spriteType = {
+        name = GFX_report_event_eaw_dwa_winglessone_1
+        texturefile = "gfx/event_pictures/eaw_dwa/eaw_dwa_winglessone_1.dds"
+    }
+}

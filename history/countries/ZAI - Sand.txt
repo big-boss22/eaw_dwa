@@ -1,0 +1,23 @@
+capital = 891
+set_research_slots = 1
+set_convoys = 0
+set_stability = 0.2
+set_war_support = 0.2
+recruit_character = ZAI_tin_zinan
+recruit_character = ZAI_midnight_spirit
+promote_character = ZAI_tin_zinan
+add_ideas = rowdy_chieftains
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    democratic = 10
+    fascism = 10
+    communism = 0
+    neutrality = 80
+}

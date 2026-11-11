@@ -1,0 +1,18 @@
+# Generated BoP activation helpers. Country scope; repeated activation preserves the current value.
+hmb_eaw_dwa_eaw_dwa_balance_1_activate = {
+    if = {
+        limit = {
+            NOT = { has_power_balance = { id = eaw_dwa_balance_1 } }
+            original_tag = ZAI
+        }
+        set_power_balance = {
+            id = eaw_dwa_balance_1
+            left_side = eaw_dwa_balance_1_left
+            right_side = eaw_dwa_balance_1_right
+            set_value = 0
+        }
+    }
+}
+hmb_eaw_dwa_eaw_dwa_balance_1_deactivate = {
+    remove_power_balance = { id = eaw_dwa_balance_1 }
+}

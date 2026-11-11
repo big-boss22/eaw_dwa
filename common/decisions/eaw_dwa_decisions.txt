@@ -1,0 +1,75 @@
+eaw_dwa_decisions_1 = {
+    eaw_dwa_decisions_1_decision_1 = {
+        icon = GFX_decision_daggers
+        cost = 50
+        fire_only_once = yes
+        allowed = {
+            always = yes
+        }
+        visible = {
+            always = yes
+        }
+        available = {
+            always = yes
+        }
+        complete_effect = {
+            custom_effect_tooltip = midnight_mercs_key_tt
+            hidden_effect = {
+            load_oob = ZAI_midmercs
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
+
+eaw_dwa_balance_1_decisions_1 = {
+    eaw_dwa_balance_1_support_left_1 = {
+        icon = generic_political_discourse
+        cost = 25
+        days_re_enable = 30
+        allowed = {
+            always = yes
+        }
+        visible = {
+            always = yes
+        }
+        available = {
+            has_power_balance = { id = eaw_dwa_balance_1 }
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                id = eaw_dwa_balance_1
+                value = -0.1
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    eaw_dwa_balance_1_support_right_1 = {
+        icon = generic_political_discourse
+        cost = 25
+        days_re_enable = 30
+        allowed = {
+            always = yes
+        }
+        visible = {
+            always = yes
+        }
+        available = {
+            has_power_balance = { id = eaw_dwa_balance_1 }
+        }
+        complete_effect = {
+            add_power_balance_value = {
+                id = eaw_dwa_balance_1
+                value = 0.1
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}
+

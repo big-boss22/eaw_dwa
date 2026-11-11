@@ -1,0 +1,750 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_beginning
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_beginning.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_beginning_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_beginning.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_beginning.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_beginning.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_tribal_rule
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_tribal_rule.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_tribal_rule_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_tribal_rule.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_tribal_rule.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_tribal_rule.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_midnight_rule
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_midnight_rule.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_midnight_rule_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_midnight_rule.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_midnight_rule.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_midnight_rule.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_protect_tradition
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_protect_tradition.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_protect_tradition_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_protect_tradition.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_protect_tradition.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_protect_tradition.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_teach_the_locals_how_to_fight
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_teach_the_locals_how_to_fight.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_teach_the_locals_how_to_fight_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_teach_the_locals_how_to_fight.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_teach_the_locals_how_to_fight.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_teach_the_locals_how_to_fight.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_entice_more_mercenaries
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_entice_more_mercenaries.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_entice_more_mercenaries_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_entice_more_mercenaries.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_entice_more_mercenaries.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_entice_more_mercenaries.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_and_to_read
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_and_to_read.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_and_to_read_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_and_to_read.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_and_to_read.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_and_to_read.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_contact_the_tribes
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_contact_the_tribes.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_contact_the_tribes_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_contact_the_tribes.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_contact_the_tribes.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_contact_the_tribes.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_intergration_efforts
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_intergration_efforts.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_intergration_efforts_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_intergration_efforts.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_intergration_efforts.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_intergration_efforts.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_orders_from_new_mareland
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_orders_from_new_mareland.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_orders_from_new_mareland_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_orders_from_new_mareland.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_orders_from_new_mareland.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_orders_from_new_mareland.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_guns_of_the_nightmare
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_guns_of_the_nightmare.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_guns_of_the_nightmare_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_guns_of_the_nightmare.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_guns_of_the_nightmare.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_guns_of_the_nightmare.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_secure_the_desert
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_secure_the_desert.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_secure_the_desert_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_secure_the_desert.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_secure_the_desert.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_secure_the_desert.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_the_winds_pause
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_the_winds_pause.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_the_winds_pause_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_the_winds_pause.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_the_winds_pause.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_the_winds_pause.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_placate_the_chiefs
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_placate_the_chiefs.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_placate_the_chiefs_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_placate_the_chiefs.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_placate_the_chiefs.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_placate_the_chiefs.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_army_of_mercs
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_army_of_mercs.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_army_of_mercs_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_army_of_mercs.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_army_of_mercs.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_army_of_mercs.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_local_gunsmith_lodges
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_local_gunsmith_lodges.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_local_gunsmith_lodges_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_local_gunsmith_lodges.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_local_gunsmith_lodges.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_local_gunsmith_lodges.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_a_guns_a_gun
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_a_guns_a_gun.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_a_guns_a_gun_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_a_guns_a_gun.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_a_guns_a_gun.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_a_guns_a_gun.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_all_in_for_the_money
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_all_in_for_the_money.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_all_in_for_the_money_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_all_in_for_the_money.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_all_in_for_the_money.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_all_in_for_the_money.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_manufacturers_guilds
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_manufacturers_guilds.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_manufacturers_guilds_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_manufacturers_guilds.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_manufacturers_guilds.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_manufacturers_guilds.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_mercenary_standards_board
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_mercenary_standards_board.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_mercenary_standards_board_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_mercenary_standards_board.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_mercenary_standards_board.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_mercenary_standards_board.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_a_trucks_a_truck
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_a_trucks_a_truck.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_a_trucks_a_truck_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_a_trucks_a_truck.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_a_trucks_a_truck.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_a_trucks_a_truck.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_real_fire_support
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_real_fire_support.dds"
+    }
+    spriteType = {
+        name = GFX_goal_eaw_dwa_azir_real_fire_support_shine
+        texturefile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_real_fire_support.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_real_fire_support.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/goals/eaw_dwa/eaw_dwa_azir_real_fire_support.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+}

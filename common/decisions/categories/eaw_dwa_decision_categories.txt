@@ -1,0 +1,22 @@
+eaw_dwa_decisions_1 = {
+    icon = GFX_decision_category_ger_mefo_bills
+    visible_when_empty = yes
+    allowed = {
+        original_tag = ZAI
+    }
+    visible = {
+        has_completed_focus = azir_entice_more_mercenaries
+    }
+}
+
+eaw_dwa_balance_1_decisions_1 = {
+    icon = generic_political_actions
+    visible_when_empty = yes
+    allowed = {
+        always = yes
+    }
+    visible = {
+        always = yes
+    }
+}
+

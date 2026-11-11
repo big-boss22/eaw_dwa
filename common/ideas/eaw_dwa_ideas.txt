@@ -1,0 +1,38 @@
+
+ideas = {
+    country = {
+        rowdy_chieftains = {
+            picture = eaw_dwa_rowdy_chieftains
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                political_power_gain = -0.10
+                stability_weekly = -0.005
+                recruitable_population = -0.05
+            }
+        }
+        learning_to_read = {
+            picture = eaw_dwa_learning_to_read
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                political_power_gain = -0.10
+                research_speed_factor = -0.05
+            }
+            on_remove = {
+                decrease_illiteracy = yes
+            }
+        }
+        contacting_tribes = {
+            picture = eaw_dwa_contacting_tribes
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                political_power_gain = 0.10
+            }
+        }
+    }
+}

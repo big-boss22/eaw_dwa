@@ -1,0 +1,43 @@
+characters = {
+    ZAI_midnight_spirit = {
+        name = ZAI_midnight_spirit
+        portraits = {
+            civilian = {
+                large = GFX_portrait_eaw_dwa_ZAI_midnight_spirit
+                small = GFX_idea_eaw_dwa_ZAI_midnight_spirit
+            }
+        }
+        country_leader = {
+            ideology = khakistocracy
+            traits = { azir_midnight_crackhead }
+            expire = "1965.1.1"
+            id = -1
+        }
+        corps_commander = {
+            traits = { renowned_marksman desert_fox trait_mercenary_commander night_guard_2 }
+            skill = 4
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+            visible = {
+                has_completed_focus = azir_midnight_rule
+            }
+            legacy_id = -1
+        }
+    }
+    ZAI_tin_zinan = {
+        name = ZAI_tin_zinan
+        portraits = {
+            civilian = {
+                large = GFX_portrait_eaw_dwa_ZAI_tin_zinan
+                small = GFX_idea_eaw_dwa_ZAI_tin_zinan
+            }
+        }
+        country_leader = {
+            ideology = tribal_council
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+}

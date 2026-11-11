@@ -1,0 +1,18 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_portrait_eaw_dwa_ZAI_midnight_spirit
+        texturefile = "gfx/leaders/ZAI/eaw_dwa_ZAI_midnight_spirit_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_eaw_dwa_ZAI_midnight_spirit
+        texturefile = "gfx/leaders/ZAI/eaw_dwa_ZAI_midnight_spirit_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_eaw_dwa_ZAI_tin_zinan
+        texturefile = "gfx/leaders/ZAI/eaw_dwa_ZAI_tin_zinan_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_eaw_dwa_ZAI_tin_zinan
+        texturefile = "gfx/leaders/ZAI/eaw_dwa_ZAI_tin_zinan_small.dds"
+    }
+}
