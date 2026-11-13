@@ -18,7 +18,7 @@ country_event = {
         ai_chance = {
             factor = 1
         }
-        complete_national_focus = azir_tribal_rule
+        complete_national_focus = ZAI_tribal_rule
         hidden_effect = {
         every_owned_state = {
         set_demilitarized_zone = yes
@@ -61,7 +61,7 @@ country_event = {
         ai_chance = {
             factor = 1
         }
-        complete_national_focus = azir_midnight_rule
+        complete_national_focus = ZAI_midnight_rule
     }
 }
 
@@ -142,7 +142,7 @@ country_event = {
     option = {
         name = windspause.1.a
         trigger = {
-            has_completed_focus = azir_midnight_rule
+            has_completed_focus = ZAI_midnight_rule
         }
         ai_chance = {
             factor = 1

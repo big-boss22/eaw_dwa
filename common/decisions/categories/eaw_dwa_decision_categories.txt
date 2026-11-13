@@ -5,7 +5,7 @@ ZAI_dwa_decisions_1 = {
         original_tag = ZAI
     }
     visible = {
-        has_completed_focus = azir_entice_more_mercenaries
+        has_completed_focus = ZAI_entice_more_mercenaries
     }
 }
 
