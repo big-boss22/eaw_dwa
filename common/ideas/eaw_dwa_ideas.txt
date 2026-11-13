@@ -1,7 +1,7 @@
 
 ideas = {
     country = {
-        rowdy_chieftains = {
+        ZAI_rowdy_chieftains = {
             picture = eaw_dwa_rowdy_chieftains
             allowed = {
                 always = yes
@@ -12,7 +12,7 @@ ideas = {
                 recruitable_population = -0.05
             }
         }
-        learning_to_read = {
+        ZAI_learning_to_read = {
             picture = eaw_dwa_learning_to_read
             allowed = {
                 always = yes
@@ -25,7 +25,7 @@ ideas = {
                 decrease_illiteracy = yes
             }
         }
-        contacting_tribes = {
+        ZAI_contacting_tribes = {
             picture = eaw_dwa_contacting_tribes
             allowed = {
                 always = yes

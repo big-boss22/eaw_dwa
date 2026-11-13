@@ -7,12 +7,6 @@ characters = {
                 small = GFX_idea_eaw_dwa_ZAI_midnight_spirit
             }
         }
-        country_leader = {
-            ideology = khakistocracy
-            traits = { azir_midnight_crackhead }
-            expire = "1965.1.1"
-            id = -1
-        }
         corps_commander = {
             traits = { renowned_marksman desert_fox trait_mercenary_commander night_guard_2 }
             skill = 4
@@ -36,6 +30,7 @@ characters = {
         }
         country_leader = {
             ideology = tribal_council
+            promote
             expire = "1965.1.1"
             id = -1
         }

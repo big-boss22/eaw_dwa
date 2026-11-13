@@ -1,4 +1,4 @@
-eaw_dwa_decisions_1 = {
+ZAI_dwa_decisions_1 = {
     icon = GFX_decision_category_ger_mefo_bills
     visible_when_empty = yes
     allowed = {
@@ -9,11 +9,11 @@ eaw_dwa_decisions_1 = {
     }
 }
 
-eaw_dwa_balance_1_decisions_1 = {
+ZAI_dwa_balance_1_decisions_1 = {
     icon = generic_political_actions
     visible_when_empty = yes
     allowed = {
-        always = yes
+        original_tag = ZAI
     }
     visible = {
         always = yes

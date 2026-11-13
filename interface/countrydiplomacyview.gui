@@ -3877,7 +3877,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 56 y = -14 }
 			format = center
-			font = "eaw_diplo_16mbs"
+			font = "ZAI_diplo_16mbs"
 			text = "country"
 			maxWidth = 110
 			maxHeight = 40

@@ -86,16 +86,29 @@ country_event = {
     id = winglessone.1
     title = winglessone.1.t
     desc = winglessone.1.d
+
     picture = GFX_report_event_eaw_dwa_winglessone_1
+
     is_triggered_only = yes
     fire_only_once = yes
     major = yes
+
     option = {
         name = winglessone.1.a
         ai_chance = {
             factor = 1
         }
-        add_political_power = 25
+     add_country_leader_role = {
+        character = ZAI_midnight_spirit
+        promote_leader = yes
+        country_leader = {
+            ideology = khakistocracy
+            expire = "1965.1.1"
+                traits = {
+                azir_midnight_crackhead
+            }
+        }
+     }
     }
 }
 

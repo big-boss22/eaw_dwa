@@ -5,8 +5,7 @@ set_stability = 0.2
 set_war_support = 0.2
 recruit_character = ZAI_tin_zinan
 recruit_character = ZAI_midnight_spirit
-promote_character = ZAI_tin_zinan
-add_ideas = rowdy_chieftains
+add_ideas = ZAI_rowdy_chieftains
 
 # Politics selected in the builder
 set_politics = {

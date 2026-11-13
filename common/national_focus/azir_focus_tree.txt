@@ -1,17 +1,18 @@
 focus_tree = {
-    id = azir_focus_tree
+    id = ZAI_focus_tree
     default = no
     country = {
         factor = 0
         modifier = {
-            add = 1000
-            tag = ZAI
+            add = 10
+            original_tag = ZAI
         }
     }
     continuous_focus_position = { x = -1406 y = 942 }
-
-    focus = {
-        id = azir_beginning
+    shared_focus = ZAI_azir_beginning
+}
+    shared_focus = {
+        id = ZAI_azir_beginning
         icon = GFX_goal_eaw_dwa_azir_beginning
         x = 0
         y = 0
@@ -27,15 +28,15 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_tribal_military
+    shared_focus = {
+        id = ZAI_tribal_military
         icon = GFX_goal_generic_construct_civ_factory
         x = 11
         y = 0
         cost = 5
-        mutually_exclusive = { focus = azir_army_of_mercs }
+        mutually_exclusive = { focus = ZAI_army_of_mercs }
         available = {
-            has_completed_focus = azir_tribal_rule
+            has_completed_focus = ZAI_tribal_rule
         }
         completion_reward = {
             add_political_power = 50
@@ -45,22 +46,22 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_army_of_mercs
-        icon = GFX_goal_eaw_dwa_azir_army_of_mercs
+    shared_focus = {
+        id = ZAI_army_of_mercs
+        icon = GFX_goal_eaw_dwa_ZAI_army_of_mercs
         x = 15
         y = 0
         cost = 5
-        mutually_exclusive = { focus = azir_tribal_military }
+        mutually_exclusive = { focus = ZAI_tribal_military }
         available = {
-            has_completed_focus = azir_midnight_rule
+            has_completed_focus = ZAI_midnight_rule
         }
         completion_reward = {
             add_mastery_bonus = {
-            			bonus = 0.2
-            			days = 180
-            			grand_doctrine = superior_firepower
-            			name = ZAI_army_superior_firepower
+                bonus = 0.2
+                days = 180
+                grand_doctrine = superior_firepower
+                name = ZAI_army_superior_firepower
             }
         }
         ai_will_do = {
@@ -68,14 +69,14 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_tribal_rule
+    shared_focus = {
+        id = ZAI_tribal_rule
         icon = GFX_goal_eaw_dwa_azir_tribal_rule
         x = -4
         y = 1
         cost = 2
-        prerequisite = { focus = azir_beginning }
-        mutually_exclusive = { focus = azir_midnight_rule }
+        prerequisite = { focus = ZAI_azir_beginning }
+        mutually_exclusive = { focus = ZAI_midnight_rule }
         available = {
             always = no
         }
@@ -87,14 +88,14 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_midnight_rule
+    shared_focus = {
+        id = ZAI_midnight_rule
         icon = GFX_goal_eaw_dwa_azir_midnight_rule
         x = 4
         y = 1
         cost = 2
-        prerequisite = { focus = azir_beginning }
-        mutually_exclusive = { focus = azir_tribal_rule }
+        prerequisite = { focus = ZAI_azir_beginning }
+        mutually_exclusive = { focus = ZAI_tribal_rule }
         available = {
             always = no
         }
@@ -104,10 +105,10 @@ focus_tree = {
                 ideology = khakistocracy
             }
             hidden_effect = {
-            country_event = {
-            id = winglessone.1
-            days = 3
-             }
+                country_event = {
+                    id = winglessone.1
+                    days = 3
+                }
             }
         }
         ai_will_do = {
@@ -115,13 +116,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = eaw_dwa_azir_focus_tree_focus_31
+    shared_focus = {
+        id = ZAI_dwa_azir_focus_tree_focus_31
         icon = GFX_goal_generic_construct_civ_factory
         x = 9
         y = 1
         cost = 5
-        prerequisite = { focus = azir_tribal_military }
+        prerequisite = { focus = ZAI_tribal_military }
         completion_reward = {
             add_political_power = 50
         }
@@ -130,13 +131,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_tribal_weaponsmiths
+    shared_focus = {
+        id = ZAI_tribal_weaponsmiths
         icon = GFX_goal_generic_construct_civ_factory
         x = 11
         y = 1
         cost = 5
-        prerequisite = { focus = azir_tribal_military }
+        prerequisite = { focus = ZAI_tribal_military }
         completion_reward = {
             add_political_power = 50
         }
@@ -145,13 +146,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_local_gunsmith_lodges
+    shared_focus = {
+        id = ZAI_local_gunsmith_lodges
         icon = GFX_goal_eaw_dwa_azir_local_gunsmith_lodges
         x = 13
         y = 1
         cost = 5
-        prerequisite = { focus = azir_tribal_military focus = azir_army_of_mercs }
+        prerequisite = { focus = ZAI_tribal_military focus = ZAI_army_of_mercs }
         completion_reward = {
             add_political_power = 50
         }
@@ -160,13 +161,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_a_guns_a_gun
+    shared_focus = {
+        id = ZAI_a_guns_a_gun
         icon = GFX_goal_eaw_dwa_azir_a_guns_a_gun
         x = 15
         y = 1
         cost = 5
-        prerequisite = { focus = azir_army_of_mercs }
+        prerequisite = { focus = ZAI_army_of_mercs }
         completion_reward = {
             add_tech_bonus = {
                 bonus = 0.5
@@ -186,13 +187,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_a_trucks_a_truck
+    shared_focus = {
+        id = ZAI_a_trucks_a_truck
         icon = GFX_goal_eaw_dwa_azir_a_trucks_a_truck
         x = 17
         y = 1
         cost = 5
-        prerequisite = { focus = azir_army_of_mercs }
+        prerequisite = { focus = ZAI_army_of_mercs }
         completion_reward = {
             add_tech_bonus = {
             	bonus = 0.5
@@ -212,13 +213,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_protect_tradition
+    shared_focus = {
+        id = ZAI_protect_tradition
         icon = GFX_goal_eaw_dwa_azir_protect_tradition
         x = -6
         y = 2
         cost = 5
-        prerequisite = { focus = azir_tribal_rule }
+        prerequisite = { focus = ZAI_tribal_rule }
         completion_reward = {
             add_political_power = 50
         }
@@ -227,13 +228,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = eaw_dwa_azir_focus_tree_focus_5
+    shared_focus = {
+        id = ZAI_dwa_azir_focus_tree_focus_5
         icon = GFX_goal_generic_construct_civ_factory
         x = -2
         y = 2
         cost = 5
-        prerequisite = { focus = azir_tribal_rule }
+        prerequisite = { focus = ZAI_tribal_rule }
         completion_reward = {
             add_political_power = 50
         }
@@ -242,13 +243,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_teach_the_locals_how_to_fight
+    shared_focus = {
+        id = ZAI_teach_the_locals_how_to_fight
         icon = GFX_goal_eaw_dwa_azir_teach_the_locals_how_to_fight
         x = 2
         y = 2
         cost = 5
-        prerequisite = { focus = azir_midnight_rule }
+        prerequisite = { focus = ZAI_midnight_rule }
         completion_reward = {
             add_manpower = 2500
         }
@@ -257,13 +258,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_entice_more_mercenaries
+    shared_focus = {
+        id = ZAI_entice_more_mercenaries
         icon = GFX_goal_eaw_dwa_azir_entice_more_mercenaries
         x = 6
         y = 2
         cost = 5
-        prerequisite = { focus = azir_midnight_rule }
+        prerequisite = { focus = ZAI_midnight_rule }
         completion_reward = {
             custom_effect_tooltip = entice_more_mercs_key_tt
         }
@@ -272,13 +273,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = eaw_dwa_azir_focus_tree_focus_34
+    shared_focus = {
+        id = ZAI_dwa_azir_focus_tree_focus_34
         icon = GFX_goal_generic_construct_civ_factory
         x = 9
         y = 2
         cost = 5
-        prerequisite = { focus = eaw_dwa_azir_focus_tree_focus_31 }
+        prerequisite = { focus = ZAI_dwa_ZAI_focus_tree_focus_31 }
         completion_reward = {
             add_political_power = 50
         }
@@ -287,13 +288,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_desert_Imjahden
+    shared_focus = {
+        id = ZAI_desert_Imjahden
         icon = GFX_goal_generic_construct_civ_factory
         x = 11
         y = 2
         cost = 5
-        prerequisite = { focus = azir_tribal_weaponsmiths }
+        prerequisite = { focus = ZAI_tribal_weaponsmiths }
         completion_reward = {
             add_political_power = 50
         }
@@ -302,13 +303,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_all_in_for_the_money
+    shared_focus = {
+        id = ZAI_all_in_for_the_money
         icon = GFX_goal_eaw_dwa_azir_all_in_for_the_money
         x = 15
         y = 2
         cost = 5
-        prerequisite = { focus = azir_a_guns_a_gun }
+        prerequisite = { focus = ZAI_a_guns_a_gun }
         completion_reward = {
             add_manpower = 2500
         }
@@ -317,13 +318,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_real_fire_support
+    shared_focus = {
+        id = ZAI_real_fire_support
         icon = GFX_goal_eaw_dwa_azir_real_fire_support
         x = 17
         y = 2
         cost = 5
-        prerequisite = { focus = azir_a_trucks_a_truck }
+        prerequisite = { focus = ZAI_a_trucks_a_truck }
         completion_reward = {
             ZAI = {
             add_equipment_to_stockpile = {
@@ -343,13 +344,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_our_friends_in_zarantia
+    shared_focus = {
+        id = ZAI_our_friends_in_zarantia
         icon = GFX_goal_generic_construct_civ_factory
         x = -6
         y = 3
         cost = 5
-        prerequisite = { focus = azir_protect_tradition }
+        prerequisite = { focus = ZAI_protect_tradition }
         completion_reward = {
             add_political_power = 50
         }
@@ -358,13 +359,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = eaw_dwa_azir_focus_tree_focus_8
+    shared_focus = {
+        id = ZAI_dwa_azir_focus_tree_focus_8
         icon = GFX_goal_generic_construct_civ_factory
         x = -2
         y = 3
         cost = 5
-        prerequisite = { focus = eaw_dwa_azir_focus_tree_focus_5 }
+        prerequisite = { focus = ZAI_dwa_azir_focus_tree_focus_5 }
         completion_reward = {
             add_political_power = 50
         }
@@ -373,16 +374,16 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_and_to_read
+    shared_focus = {
+        id = ZAI_and_to_read
         icon = GFX_goal_eaw_dwa_azir_and_to_read
         x = 2
         y = 3
         cost = 5
-        prerequisite = { focus = azir_teach_the_locals_how_to_fight }
+        prerequisite = { focus = ZAI_teach_the_locals_how_to_fight }
         completion_reward = {
             add_timed_idea = {
-                idea = learning_to_read
+                idea = ZAI_learning_to_read
                 days = 180
             }
         }
@@ -391,13 +392,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_orders_from_new_mareland
+    shared_focus = {
+        id = ZAI_orders_from_new_mareland
         icon = GFX_goal_eaw_dwa_azir_orders_from_new_mareland
         x = 6
         y = 3
         cost = 5
-        prerequisite = { focus = azir_entice_more_mercenaries }
+        prerequisite = { focus = ZAI_entice_more_mercenaries }
         completion_reward = {
             country_event = {
                 id = shadowboltorders.1
@@ -409,14 +410,14 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = eaw_dwa_azir_focus_tree_focus_30
+    shared_focus = {
+        id = ZAI_dwa_azir_focus_tree_focus_30
         icon = GFX_goal_generic_construct_civ_factory
         x = 11
         y = 3
         cost = 5
-        prerequisite = { focus = azir_desert_Imjahden }
-        prerequisite = { focus = eaw_dwa_azir_focus_tree_focus_34 }
+        prerequisite = { focus = ZAI_desert_Imjahden }
+        prerequisite = { focus = ZAI_dwa_azir_focus_tree_focus_34 }
         completion_reward = {
             add_political_power = 50
         }
@@ -425,14 +426,14 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_manufacturers_guilds
+    shared_focus = {
+        id = ZAI_manufacturers_guilds
         icon = GFX_goal_eaw_dwa_azir_manufacturers_guilds
         x = 13
         y = 3
         cost = 5
-        prerequisite = { focus = azir_desert_Imjahden focus = azir_all_in_for_the_money }
-        prerequisite = { focus = azir_local_gunsmith_lodges }
+        prerequisite = { focus = ZAI_desert_Imjahden focus = ZAI_all_in_for_the_money }
+        prerequisite = { focus = ZAI_local_gunsmith_lodges }
         completion_reward = {
             add_political_power = 50
         }
@@ -441,14 +442,14 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_mercenary_standards_board
+    shared_focus = {
+        id = ZAI_mercenary_standards_board
         icon = GFX_goal_eaw_dwa_azir_mercenary_standards_board
         x = 15
         y = 3
         cost = 5
-        prerequisite = { focus = azir_all_in_for_the_money }
-        prerequisite = { focus = azir_real_fire_support }
+        prerequisite = { focus = ZAI_all_in_for_the_money }
+        prerequisite = { focus = ZAI_real_fire_support }
         completion_reward = {
             add_political_power = 50
         }
@@ -457,13 +458,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_modernisation_efforts
+    shared_focus = {
+        id = ZAI_modernisation_efforts
         icon = GFX_goal_generic_construct_civ_factory
         x = -6
         y = 4
         cost = 5
-        prerequisite = { focus = azir_our_friends_in_zarantia }
+        prerequisite = { focus = ZAI_our_friends_in_zarantia }
         completion_reward = {
             add_political_power = 50
         }
@@ -472,13 +473,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_prepare_a_tribal_council
+    shared_focus = {
+        id = ZAI_prepare_a_tribal_council
         icon = GFX_goal_generic_construct_civ_factory
         x = -2
         y = 4
         cost = 5
-        prerequisite = { focus = eaw_dwa_azir_focus_tree_focus_8 }
+        prerequisite = { focus = ZAI_dwa_azir_focus_tree_focus_8 }
         completion_reward = {
             add_political_power = 50
         }
@@ -487,16 +488,16 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_contact_the_tribes
+    shared_focus = {
+        id = ZAI_contact_the_tribes
         icon = GFX_goal_eaw_dwa_azir_contact_the_tribes
         x = 0
         y = 4
         cost = 5
-        prerequisite = { focus = eaw_dwa_azir_focus_tree_focus_8 focus = azir_and_to_read }
+        prerequisite = { focus = ZAI_dwa_azir_focus_tree_focus_8 focus = ZAI_and_to_read }
         completion_reward = {
             add_timed_idea = {
-                idea = contacting_tribes
+                idea = ZAI_contacting_tribes
                 days = 70
             }
         }
@@ -505,13 +506,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_intergration_efforts
+    shared_focus = {
+        id = ZAI_intergration_efforts
         icon = GFX_goal_eaw_dwa_azir_intergration_efforts
         x = 2
         y = 4
         cost = 5
-        prerequisite = { focus = azir_and_to_read }
+        prerequisite = { focus = ZAI_and_to_read }
         completion_reward = {
             add_stability = 0.05
         }
@@ -520,13 +521,13 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_guns_of_the_nightmare
+    shared_focus = {
+        id = ZAI_guns_of_the_nightmare
         icon = GFX_goal_eaw_dwa_azir_guns_of_the_nightmare
         x = 6
         y = 4
         cost = 5
-        prerequisite = { focus = azir_orders_from_new_mareland }
+        prerequisite = { focus = ZAI_orders_from_new_mareland }
         completion_reward = {
             ZAI = {
             add_equipment_to_stockpile = {
@@ -542,14 +543,14 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_reunite_the_people
+    shared_focus = {
+        id = ZAI_reunite_the_people
         icon = GFX_goal_generic_construct_civ_factory
         x = -4
         y = 5
         cost = 5
-        prerequisite = { focus = azir_prepare_a_tribal_council }
-        prerequisite = { focus = azir_modernisation_efforts }
+        prerequisite = { focus = ZAI_prepare_a_tribal_council }
+        prerequisite = { focus = ZAI_modernisation_efforts }
         completion_reward = {
             add_political_power = 50
         }
@@ -558,34 +559,34 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_placate_the_chiefs
+    shared_focus = {
+        id = ZAI_placate_the_chiefs
         icon = GFX_goal_eaw_dwa_azir_placate_the_chiefs
         x = 0
         y = 5
         cost = 5
-        prerequisite = { focus = azir_contact_the_tribes }
+        prerequisite = { focus = ZAI_contact_the_tribes }
         available = {
             NOT = {
-                has_idea = contacting_tribes
+                has_idea = ZAI_contacting_tribes
             }
         }
         completion_reward = {
-            remove_ideas = rowdy_chieftains
+            remove_ideas = ZAI_rowdy_chieftains
         }
         ai_will_do = {
             factor = 1
         }
     }
 
-    focus = {
-        id = azir_secure_the_desert
+    shared_focus = {
+        id = ZAI_secure_the_desert
         icon = GFX_goal_eaw_dwa_azir_secure_the_desert
         x = 4
         y = 5
         cost = 5
-        prerequisite = { focus = azir_intergration_efforts }
-        prerequisite = { focus = azir_guns_of_the_nightmare }
+        prerequisite = { focus = ZAI_intergration_efforts }
+        prerequisite = { focus = ZAI_guns_of_the_nightmare }
         completion_reward = {
             country_event = {
                 id = desertsecure.1
@@ -597,14 +598,14 @@ focus_tree = {
         }
     }
 
-    focus = {
-        id = azir_the_winds_pause
+    shared_focus = {
+        id = ZAI_the_winds_pause
         icon = GFX_goal_eaw_dwa_azir_the_winds_pause
         x = 0
         y = 6
         cost = 10
-        prerequisite = { focus = azir_reunite_the_people focus = azir_secure_the_desert }
-        prerequisite = { focus = azir_placate_the_chiefs }
+        prerequisite = { focus = ZAI_reunite_the_people focus = ZAI_secure_the_desert }
+        prerequisite = { focus = ZAI_placate_the_chiefs }
         completion_reward = {
             country_event = {
                 id = windspause.1
@@ -615,4 +616,3 @@ focus_tree = {
             factor = 1
         }
     }
-}
